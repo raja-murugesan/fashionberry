@@ -1,0 +1,10 @@
+
+#ourteam .portfolio-item img {
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+#ourteam .portfolio-item p {
+	text-align: center;
+	text-transform: uppercase;
+}
