@@ -1,4 +1,8 @@
 
+.container .portfolio-item h4 {
+	text-align: center;
+}
+
 #ourteam .portfolio-item img {
 	padding-bottom: 15px;
 	margin: 0 auto;
@@ -7,4 +11,31 @@
 #ourteam .portfolio-item p {
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.portfolio-modal-ul li {
+	text-align: left;	
+}
+
+.portfolio-modal-ul {
+    margin: 0.75em 0;
+    margin-left: 50px;
+    padding: 0 1em;
+    list-style: none;
+}
+.portfolio-modal-ul li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+.portfolio-modal .container {
+	margin-bottom: 20px;
 }
